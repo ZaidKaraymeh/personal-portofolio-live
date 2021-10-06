@@ -1,0 +1,147 @@
+body {
+    margin: 0%;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: darkslategrey;
+}
+
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
+}
+
+section h1 {
+    font-weight: bold;
+}
+
+
+.intro h1 {
+    font-size: 64px;
+}
+.intro p {
+    font-size: 28px;
+}
+
+.skills > * {
+    width: 100% ;
+}
+
+.skills-about-me {
+    line-height: 2.1;
+}
+
+
+.card-height {
+    min-height: 200px;
+}
+
+.list-group-item {
+    background-color: transparent;
+    border-top: 1px solid #ddd;
+    border-radius: 0;
+    color: #fff;
+}
+
+.brown {
+    background-color: #582F0E;
+}
+.seal {
+    background-color: #936639;
+}
+.kaki {
+    background-color: #B6AD90;
+}
+.olive {
+    background-color: #656D4A;
+}
+.rifle {
+    background-color: #414833;
+}
+.green {
+    background-color: #333D29;
+}
+
+.spacer {
+    aspect-ratio: 960/148;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    stroke: transparent;
+    stroke-width: none;
+
+}
+    .introSVG {
+        background-image: url("./media/intro.svg");
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .skillsSVG {
+        background-image: url("./media/skills.svg");
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .projectsSVG {
+        background-image: url("./media/projects.svg");
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .socialsSVG {
+        background-image: url("./media/socials.svg");
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .goalsSVG {
+        background-image: url("./media/goals.svg");
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    .resumeSVG {
+        background-image: url("./media/resume.svg");
+        stroke: transparent;
+        stroke-width: 0px;
+    }
+    
+    .blob-motion {
+        position: absolute;
+        transform: translateY(-10%);
+        z-index: 1;
+    }
+    
+    
+    .flip {
+        transform: scaleY(-1);
+    }
+
+
+
+
+
+
+
+
+/* SideBar */
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
